@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #00695c;
+    border-radius: 5px;
+}
