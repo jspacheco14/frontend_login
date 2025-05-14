@@ -31,8 +31,10 @@ const Dashboard = () => {
 
     return (
         <div>
-            <h2>Registros de Inferencias de residuos</h2>
-            <button onClick={handleLogout}>Logout</button>
+            <div className="dashboard-header">
+                <h2>Registros de Inferencias de residuos</h2>
+                <button className="logout-btn" onClick={handleLogout}>Logout</button>
+            </div>
             <table>
                 <thead>
                     <tr>

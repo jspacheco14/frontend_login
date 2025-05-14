@@ -21,8 +21,8 @@ const Login = () => {
 
     return (
         <div>
-            <h2>Login</h2>
             <form onSubmit={handleLogin}>
+                <h2>Clasificacion De Residuos</h2>
                 <input 
                     type="text" 
                     placeholder="Username" 
